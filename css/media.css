@@ -28,6 +28,13 @@
   .customers-list-item {
     width: 168px;
   }
+  .footer-subscribe {
+    width: 453px;
+    margin: 0;
+  }
+  .footer-subscribe-title {
+    text-align: left;
+  }
 
   .hero-start-title {
     font-size: 56px;
@@ -37,9 +44,12 @@
   }
   .footer-container {
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: baseline;
     gap: 72px 24px;
   }
+  
   .footer-logo {
     text-align: left;
   }
